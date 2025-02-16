@@ -1,6 +1,7 @@
 # Excluding all the files in the environment directory
 environment/
 __pycache__/
+Songs/
 
 # Exclusing the .env file
 .env

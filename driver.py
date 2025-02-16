@@ -21,3 +21,5 @@ if __name__ == "__main__":
     for song in update_song_list:
         link = search_for_song(song)
         download_audio(link, DOWNLOAD_PATH)
+
+    print("Completed downloading all songs. Enjoy!!")
