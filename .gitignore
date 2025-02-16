@@ -1,6 +1,6 @@
 # Excluding all the files in the environment directory
 environment/
-pycache/
+__pycache__/
 
 # Exclusing the .env file
 .env
