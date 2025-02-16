@@ -133,8 +133,3 @@ def get_spotify_songs():
 
 if __name__ == "__main__":
     get_spotify_songs()
-
-    
-# Dopamine Release:   https://open.spotify.com/playlist/4doZOuUtOWTDDFIo177NUB?si=189afd6dc3b14cd6
-# Mr. Kadam Vibes:    https://open.spotify.com/playlist/0MmEgGK2ZsHvSjsfpFzx01?si=56b24c437dc34683
-# Anger/Fight Music:  https://open.spotify.com/playlist/4tf4C2HPkZtlM6XSkRz6im?si=6f8cbd18711c42cb

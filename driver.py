@@ -9,7 +9,9 @@ if __name__ == "__main__":
     userName = os.getenv("username")
 
     # Make a directory name "Songs" on the desktop
-    temp_path = f"C:/Users/{userName}/Desktop/Songs"
+    print("Enter the destination (leave blank for current directory)")
+    destination = str(input(">> ")) or '.'
+    temp_path = f"{destination}/Songs"
     os.makedirs(temp_path)
     DOWNLOAD_PATH = temp_path
 

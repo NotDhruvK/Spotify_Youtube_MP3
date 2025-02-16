@@ -4,13 +4,28 @@ This Python script allows you to download user-made **public Spotify playlists**
 
 ## Requirements
 
-Before running the script, ensure you have installed the required dependencies. To install the required libraries, use the following command:
+**Download this repository on your machine.**
+Before running the script, ensure that you have installed the required dependencies. Installing the dependencies in a virtual environment is recommended. Follow [this](https://www.youtube.com/watch?v=Y21OR1OPC9A) tutorial to create and activate a virtual environment.
+
+To install the required libraries, use the following command:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-**Download this repository on your machine.**
+You are also required to have the following credentials:
+
+1. Spotify Client ID
+2. Spotify Client Secret
+
+In order to get these credentials follow [this](https://www.youtube.com/watch?v=0fhkkkRuUxw) tutorial.
+
+Create a `.env` file in the working directory and add these in the file:
+
+```
+SPOTIFY_CLIENT_ID="your_client_id"
+SPOTIFY_CLIENT_SECRET="your_client_secret"
+```
 
 ### Navigate to the project directory
 
