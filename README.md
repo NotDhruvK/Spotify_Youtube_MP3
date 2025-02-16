@@ -43,3 +43,4 @@ python driver.py
 
 1. Do not have a directory named "Songs" on your desktop (Windows only)
 2. Only use **User-made and Public playlists**.
+3. **DO NOT USE PLAYLISTS MADE BY SPOTIFY**
