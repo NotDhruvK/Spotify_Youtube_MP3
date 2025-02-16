@@ -32,11 +32,12 @@ def search_for_song(song_name):
             final_link: The final youtube link.
 
     '''
-    song_name = song_name.replace(" ", "+")
-    html = urllib.request.urlopen(f"https://www.youtube.com/results?search_query={song_name}")
+    name = song_name.replace(" ", "+")
+    html = urllib.request.urlopen(f"https://www.youtube.com/results?search_query={name}")
     video_ids = re.findall(r"watch\?v=(\S{11})", html.read().decode())
     final_link = f"https://www.youtube.com/watch?v={video_ids[0]}"
-    print(f"Got link for: {song_name}")
+
+    print(f"\nGot link for: {song_name}")
 
     return final_link
     
